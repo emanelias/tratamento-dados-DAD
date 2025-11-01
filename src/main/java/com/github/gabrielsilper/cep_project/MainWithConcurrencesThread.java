@@ -1,4 +1,4 @@
-package com.github.gabrielsilper;
+package com.github.gabrielsilper.cep_project;
 
 import com.github.gabrielsilper.daos.CEPDao;
 import com.github.gabrielsilper.db.DatabaseConnection;

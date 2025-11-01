@@ -1,4 +1,4 @@
-package com.github.gabrielsilper;
+package com.github.gabrielsilper.cep_project;
 
 import org.zeroturnaround.zip.NameMapper;
 import org.zeroturnaround.zip.ZipUtil;

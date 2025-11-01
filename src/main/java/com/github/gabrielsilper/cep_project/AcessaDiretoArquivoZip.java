@@ -1,4 +1,4 @@
-package com.github.gabrielsilper;
+package com.github.gabrielsilper.cep_project;
 
 import com.github.gabrielsilper.daos.CEPDao;
 import com.github.gabrielsilper.db.DatabaseConnection;
@@ -27,7 +27,7 @@ public class AcessaDiretoArquivoZip {
 
                 ZipEntry entry;
                 int insertions = 0;
-                while ((entry = zis.getNextEntry()) != null && insertions < 100) {
+                while ((entry = zis.getNextEntry()) != null) {
                     if (entry.getName().startsWith(folder) && entry.getName().endsWith(".json")) {
                         BufferedReader reader = new BufferedReader(new InputStreamReader(zis, StandardCharsets.UTF_8));
 

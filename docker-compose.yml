@@ -1,10 +1,10 @@
 services:
   mysql-db:
-    container_name: ceps-db
+    container_name: web-service-soap-db
     image: mysql:8.0.39
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: ceps-db
+      MYSQL_DATABASE: web-service-soap-db
     ports:
       - "3306:3306"

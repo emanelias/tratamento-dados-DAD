@@ -12,7 +12,7 @@ Passos para fazer o banco do projeto:
 6. Ajustar o caminho do arquivo e executar `MunicipioMain`;
 7. No Package 'db' na pasta `sqls`, executar o arquivo `populacao.sql` para criar as tabelas populacao_total e populacao_faixa_etaria;
 8. Para inserir os dados da tabela populacao_total, é necessário baixar no formato CSV a aba PopulaçãoTotal da seguinte planilha: [PopulaçãoTotal](https://docs.google.com/spreadsheets/d/13bxqy2-QjzNmPhpiFhxirkleJeSfiFE7jVaYBUP4ivg/edit?gid=1410854874#gid=1410854874);
-9. Para inserir os dados da tabela populacao_faixa_etaria, é necessário baixar no formato CSV a aba 0 a 10 anos na seguinte planilha: [PopulaçãoFaixaEtaria](https://docs.google.com/spreadsheets/d/1SIuR-bfvAy5WM_nJzVwhu95EUr-UKA4KAuvoO5xHN1c/edit?gid=175398947#gid=175398947);
+9. Para inserir os dados da tabela populacao_faixa_etaria, é necessário baixar no formato CSV a total na seguinte planilha: [PopulaçãoFaixaEtaria](https://docs.google.com/spreadsheets/d/1SIuR-bfvAy5WM_nJzVwhu95EUr-UKA4KAuvoO5xHN1c/edit?gid=175398947#gid=175398947);
 10. Colocar os CSV's na pasta raiz do projeto;
 11. Agora, ajustar o caminho do arquivo e executar `PopulacaoMain` para inserir os dados na tabela populacao_total;
 12. E depois ajustar o caminho do arquivo e executar `PopulacaoFaixaEtariaMain` para inserir os dados na tabela populacao_faixa_etaria;

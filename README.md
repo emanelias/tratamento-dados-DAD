@@ -17,7 +17,7 @@ Passos para fazer o banco do projeto:
 11. Agora, ajustar o caminho do arquivo e executar `PopulacaoMain` para inserir os dados na tabela populacao_total;
 12. E depois ajustar o caminho do arquivo e executar `PopulacaoFaixaEtariaMain` para inserir os dados na tabela populacao_faixa_etaria;
 13. Para a parte das UBS's, no Package 'db' na pasta `sqls`, executar o arquivo `unidades_basica_saude.sql` para criar a tabela unidades_basica_saude;
-14. Para inserir os dados das UBS's, é necessário baixar o arquivo no formato CSV da planilha: [EstabelecimentosDeSaúde](https://docs.google.com/spreadsheets/d/1BLBvP5ypAomfVsYMCN5NPHtpW4p8mexqaO48O_8K9GY/edit?gid=2003975808#gid=2003975808);
+14. Para inserir os dados das UBS's, é necessário baixar o arquivo no formato CSV da planilha: [EstabelecimentosDeSaúde](https://docs.google.com/spreadsheets/d/1IDEWYWYUAd9LgNytJKq_yOKmfU1tTxnNrmmJGJgq3fs/edit?usp=sharing);
 15. Colocar o CSV na pasta raiz do projeto;
 16. E depois executar o `UnidadeBasicaSaudeMain` para inserir os dados na tabela unidades_basica_saude;
 17. Para inserir os profissionais de saúde, no Package 'db' na pasta `sqls`, executar o arquivo `profissionais_saude.sql` para criar a tabela profissionais_saude;
